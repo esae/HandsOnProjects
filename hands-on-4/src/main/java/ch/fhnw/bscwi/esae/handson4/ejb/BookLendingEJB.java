@@ -22,7 +22,7 @@ import javax.persistence.Query;
 @Stateless
 public class BookLendingEJB {
     
-    @PersistenceContext(unitName = "primary")
+    @PersistenceContext(unitName = "ch.fhnw.bscwi.esae_hands-on-4_ejb_1.0-SNAPSHOTPU")
     private EntityManager em;
 
 

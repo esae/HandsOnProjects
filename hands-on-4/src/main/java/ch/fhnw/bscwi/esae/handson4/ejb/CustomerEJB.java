@@ -19,7 +19,7 @@ import javax.persistence.TypedQuery;
 @Stateless
 public class CustomerEJB {
     
-    @PersistenceContext(unitName = "primary")
+    @PersistenceContext(unitName = "ch.fhnw.bscwi.esae_hands-on-4_ejb_1.0-SNAPSHOTPU")
     private EntityManager em;
 
 
