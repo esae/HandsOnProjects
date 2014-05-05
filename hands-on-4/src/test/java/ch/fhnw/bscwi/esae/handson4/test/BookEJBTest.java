@@ -7,7 +7,7 @@
 package ch.fhnw.bscwi.esae.handson4.test;
 
 import ch.fhnw.bscwi.esae.handson4.domain.Book;
-import ch.fhnw.bscwi.esae.handson4.ejb.BookEJB;
+import ch.fhnw.bscwi.esae.handson4.business.BookEJB;
 import java.util.List;
 import javax.ejb.EJB;
 import org.jboss.arquillian.container.test.api.Deployment;
