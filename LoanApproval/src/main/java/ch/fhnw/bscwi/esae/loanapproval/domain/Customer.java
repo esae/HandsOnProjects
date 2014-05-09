@@ -40,7 +40,17 @@ public class Customer implements Serializable {
     @OneToMany(cascade = {CascadeType.ALL})
     @JoinColumn(name = "account_fk")
     private List<Account> account;
+    @ManyToOne
+    @JoinColumn(name = "customerconsultant_fk")
+    private CustomerConsultant customerConsultant;
 
+    public CustomerConsultant getCustomerConsultant() {
+        return customerConsultant;
+    }
+
+    public void setCustomerConsultant(CustomerConsultant customerConsultant) {
+        this.customerConsultant = customerConsultant;
+    }
     /**
      * @return the id
      */
